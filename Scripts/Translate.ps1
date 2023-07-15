@@ -11,7 +11,7 @@ function Translate {
     $VarsLocation = $RmAPI.OptionStr('VarsLocation')
     # write-host $VarsLocation
 
-    $Uri = “https://translate.googleapis.com/translate_a/single?client=gtx&sl=$($SourceLanguage)&tl=$($TargetLanguage)&dt=t&q=$Text”
+    $Uri = “https://translate.googleapis.com/translate_a/single?client=gtx&sl=$($SourceLanguage)&tl=$($TargetLanguage)&dt=t&q=$($Text)”
 
     $Response = Invoke-RestMethod -Uri $Uri -Method Get
 
@@ -23,4 +23,7 @@ function Translate {
     $RmAPI.Bang('!WriteKeyValue Variables Translation1 "'+$Translation+'" "'+$VarsLocation+'"')
     
     $RmAPI.Bang('!SetVariable CopyActive 1')
+    $RmAPI.Bang('!UpdateMeter *')
+    $RmAPI.Bang('!Update')
+
 }
