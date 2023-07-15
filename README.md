@@ -33,7 +33,9 @@
 
 ## Key Features
 
-I have readjusted the <a href="https://www.deviantart.com/eclectic-tech/art/Illustro-Quotes-Patch-1-1-2015-11-11-564733769">Illustro Quotes</a> skin by <a href="https://www.deviantart.com/eclectic-tech">Eclectic-Tech</a> to fit in the app and in the <a href="https://www.deviantart.com/cariboudjan/art/droptop-four-762812007">Droptop Four</a> style, and in future updates I'm going to increse the features that this app offers.
+- 10 languages to translate from (+ automatic language recognition)
+- 10 languages to translate to
+- add to clipboard the translations
 
 ## How to use
 
@@ -47,7 +49,8 @@ Download from [releases](https://github.com/66Bunz/DroptopFour-Translator/releas
 
 ## License
 
-<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a><br>
+[GNU General Public License v3.0](LICENSE)
+
 Feel free to modify or redistribute these Rainmeter skins as much as you want. Just:
 - Link back to me somehow
 - Use ths same license
