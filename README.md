@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">Translate using the Google Translator API.</h4>
+<h4 align="center">Translate using the Google Translator API</h4>
 
 <p align="center">
   <a href="https://droptopfour.com/community-apps">
