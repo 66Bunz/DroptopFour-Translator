@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="#"><img src="Images/Logo.png" alt="Logo" width="200"></a>
+  <a><img src="Images/Logo.png" alt="Logo" width="200"></a>
   <br>
   Translator - Bunz
   <br>
