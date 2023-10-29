@@ -36,6 +36,7 @@
 - 10 languages to translate from (+ automatic language recognition)
 - 10 languages to translate to
 - add to clipboard the translations
+- (new!) Listen to the translated text (You need to have installed the language you are translating to)
 
 ## How to use
 
